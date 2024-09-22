@@ -1,6 +1,6 @@
 import { getAllContacts } from './getAllContacts.js';
 import { createFakeContact } from '../utils/createFakeContact.js';
-import  updateContacts  from './updateContacts.js';
+import  updateContacts  from '../utils/updateContacts.js';
 
 export const generateContacts = async (number) => {
     const contacts = await getAllContacts();

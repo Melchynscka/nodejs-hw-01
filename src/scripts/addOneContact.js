@@ -1,5 +1,5 @@
 import { getAllContacts } from './getAllContacts.js';
-import updateContacts from './updateContacts.js';
+import  updateContacts  from '../utils/updateContacts.js';
 import { createFakeContact } from '../utils/createFakeContact.js';
 
 export const addOneContact = async () => {
